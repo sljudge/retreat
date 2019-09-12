@@ -1,0 +1,78 @@
+@font-face{
+    font-family: "fromTheWoods";
+    src: url(fonts/From\ the\ Woods.otf)
+}
+
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+    font-family: 'Open Sans';
+    color: #d3d3d3;
+    line-height: 2rem;
+    font-weight: 600;
+}
+body{
+    margin: 0;
+}
+.banner{
+    display: block;
+    background-image: url(resources/graphics/bg.jpg);
+    background-color: #2d4823;
+    text-align: center;
+    margin: 0;
+    padding: 5rem;
+}
+h1{
+    font-family: 'fromTheWoods';
+    font-size: 6rem;
+    height: 100%;
+}
+.intro, .sign-up{
+    text-align: center;
+    background-color: #2d4823;
+    margin: 0;
+    padding: 2rem;
+}
+main{
+    background-image: url(resources/graphics/bg.jpg);
+    background-color: #2d4823;
+    display: block;
+    padding: 2rem;
+    line-height: 1.25rem;
+}
+.circle{
+    background-color: #4f6a13;
+    text-align: center;
+    border-radius: 100%;
+    width: 19rem;
+    height: 19rem;
+    font-weight: 400;
+}
+.circle p{
+    font-size: 1rem;
+    padding: 0 4rem;
+}
+.circle h2{
+    margin-bottom: 0;
+}
+.circle img{
+    padding-top: 2rem;
+}
+.nature, .community{
+    margin-left: 25%
+}
+.peace{
+    margin-left: 50%;
+    margin-top: -10rem;
+}
+.community{
+    margin-top: -8rem;
+}
+.sign-up h2{
+   font-size: 2rem;
+   margin-top: 0; 
+}
+
+
